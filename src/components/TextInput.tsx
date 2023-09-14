@@ -7,9 +7,8 @@ interface Props {
     onChange(inputValue: string): void
 }
 
+// Component for handling text inputs
 const TextInput = (props: Props) => {
-
-
 
   return (
     <input 
